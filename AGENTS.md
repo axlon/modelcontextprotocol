@@ -5,7 +5,7 @@ This repository contains the MCP specification, documentation, and blog.
 ## Documentation Structure
 
 - `docs/` - Mintlify site (`npm run serve:docs`)
-  - `docs/docs/` - guides and tutorials, versioned like the spec: `docs/docs/[YYYY-MM-DD]/` per spec version, with the newest version as the canonical docs
+  - `docs/docs/` - guides and tutorials, versioned like the spec: `docs/docs/draft/` for in-progress work, `docs/docs/[YYYY-MM-DD]/` per released spec version
   - `docs/specification/` - MCP specification (more formal, versioned)
 - `blog/` - Hugo blog (`npm run serve:blog`)
 
